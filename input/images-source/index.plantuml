@@ -1,0 +1,21 @@
+@startuml
+autonumber
+
+skinparam sequence {
+ArrowColor gray
+ActorBorderColor gray
+LifeLineBorderColor black
+}
+skinparam shadowing false
+hide footbox
+
+participant 檢驗機構 #d1ebf1
+participant LIMS  #cadaa9
+檢驗機構 -> LIMS: 上傳檢驗報告(API: SendLimsResultLOINC；格式:Bundle Request reporting)
+alt 上傳成功
+    LIMS -> 檢驗機構: 回覆上傳成功訊息(格式：Bundle Response reportion)
+else 上傳失敗
+    LIMS -> 檢驗機構: 回覆上傳失敗訊息(格式：Bundle Response reporting) 
+    檢驗機構 -> 檢驗機構: 資料修正
+end
+@enduml

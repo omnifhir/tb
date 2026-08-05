@@ -1,0 +1,16 @@
+{
+    "package-id" : "tw.gov.mohw.cdc.tb",
+    "version" : "0.1.0",
+    "path" : "https://tb.cdc.gov.tw/tb/0.1.0",
+    "mode" : "milestone",
+    "status" : "ballot",
+    "sequence" : "Releases",
+    "descmd" : "第一個發布版本",
+    "first" : true,
+    "category" : "Public Health",
+    "title"  : "臺灣結核病實作指引(TWTB IG)",
+    "introduction"  : "臺灣結核病實作指引(Taiwan Tuberculosis Implementation Guide，TWTB IG)",
+    "ci-build"  : "https://build.fhir.org/ig/twcdc/tb"
+  }
+
+
