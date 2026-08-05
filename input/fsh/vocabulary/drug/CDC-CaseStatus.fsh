@@ -53,7 +53,7 @@ Usage: #definition
 * group.source = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-case-status"
 * group.sourceVersion = "0.1.0"
 * group.target = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
-* group.targetVersion = "10.0.0"
+* group.targetVersion = "11.0.0"
 * group.element[0].code = #N
 * group.element[=].display = "門診"
 * group.element[=].target.code = #AMB
