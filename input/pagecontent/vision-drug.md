@@ -2,7 +2,6 @@
 <div  style="padding-left: 10px;"> 
 TB用藥通報透過Bundle打包以下資料(相關對應表可以參照TB用藥通報之資料模型中的<a href="StructureDefinition-DrugModel.html">Mappings</a>)：
 <ul>
-  <li><a href="StructureDefinition-Bundle-tb-drug.html">用藥通報-Bundle TB Drug</a></li>
   <li><a href="StructureDefinition-MessageHeader-tb-drug.html">用藥通報訊息-MessageHeader TB Drug</a></li>
   <li><a href="StructureDefinition-MedicationRequest-tb-drug.html">用藥-MedicationRequest TB Drug</a></li>
   <li><a href="StructureDefinition-Organization-tb.html">醫事機構-Organization TB</a></li>

@@ -2,7 +2,6 @@
 <div  style="padding-left: 10px;"> 
 TB生化檢查通報透過Bundle打包以下資料(相關對應表可以參照TB生化檢查通報之資料模型中的<a href="StructureDefinition-CheckModel.html">Mappings</a>)：
 <ul>
-  <li><a href="StructureDefinition-Bundle-tb-check.html">生化檢查通報-Bundle TB Check</a></li>
   <li><a href="StructureDefinition-MessageHeader-tb-check.html">生化檢查通報訊息-MessageHeader TB Check</a></li>
   <li><a href="StructureDefinition-DiagnosticReport-tb-check.html">生化檢查報告-DiagnosticReport TB Check</a></li>
   <li><a href="StructureDefinition-Organization-tb.html">醫事機構-Organization TB</a></li>
