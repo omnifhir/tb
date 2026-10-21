@@ -10,7 +10,7 @@ Description:    "此痰檢體病原體分生檢測報告-Observation Sputum PCR 
 * effective[x] only dateTime
 * value[x] only CodeableConcept
 * valueCodeableConcept from CDCSputumPCRResult
-* note MS
+* note 0..1 MS
 
 * code.coding 1..3
 * code.coding contains
@@ -27,6 +27,8 @@ Description:    "此痰檢體病原體分生檢測報告-Observation Sputum PCR 
 * subject only Reference(PatientTB)
 
 * effectiveDateTime ^short = "痰檢體病原體分生檢測報告日期"
+* effectiveDateTime ^example.label = "痰檢體病原體分生檢測報告日期"
+* effectiveDateTime ^example.valueDateTime = "2026-02-13"
 * valueCodeableConcept ^short = "痰檢體病原體分生檢測結果"
 * note ^short = "痰檢體病原體分生檢測結果備註"
 * performer ^short = "送驗單位(醫療院所)"

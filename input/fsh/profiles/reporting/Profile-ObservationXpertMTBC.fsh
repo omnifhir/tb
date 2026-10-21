@@ -26,5 +26,7 @@ Description:    "此Xpert MTBC報告-Observation Xpert MTBC Profile說明本IG�
 * subject only Reference(PatientTB)
 
 * effectiveDateTime ^short = "Xpert MTBC報告日期"
+* effectiveDateTime ^example.label = "Xpert MTBC報告日期"
+* effectiveDateTime ^example.valueDateTime = "2026-02-04"
 * valueCodeableConcept ^short = "Xpert MTBC檢驗結果"
 * performer ^short = "送驗單位(醫療院所)"

@@ -1,11 +1,12 @@
 ### 專案介紹
 <div  style="padding-left: 10px;"> 
-<p>to do...</p>
+<p>臺灣結核病實作指引(Taiwan Tuberculosis Implementation Guide，TWTB IG)採用HL7® FHIR® standard（Fast Healthcare Interoperability Resources）IG建置方法，在<a href="http://hl7.org/fhir/R4/">FHIR R4.0.1</a>之標準基礎上，繼承TW Core IG V0.3.2 (2024-12-12)，進一步定義適用於結核病「檢驗通報」、「用藥」及「生化檢查」資料需求的Resources（類似資料表）、其中的資料項目（意即欄位）、基數（意即0..1、0..*、1..1或1..*）及資料類型（文字、日期時間、代碼等）等。</p>
 </div>
 
 ### 專案背景
 <div  style="padding-left: 10px;"> 
-<p>to do...</p>
+<p>本專案名稱為「115年度結核病追蹤管理系統委外維護暨功能擴充案」(以下簡稱本案)。</p>
+<p>本案係維持本署「結核病追蹤管理系統」（以下簡稱本案系統）之運作穩定、可靠及安全，並強化結核病追蹤管理各項功能，以利醫療人員及公共衛生人員在辦理結核病防治業務時能充分掌握相關資訊。</p>
 </div>
 
 ### 專案範圍

@@ -16,13 +16,15 @@ Description:    "此病人資訊-Patient TB Profile說明本IG如何進一步定
 * identifier[residentNumber] 0..0
 * managingOrganization only Reference(OrganizationTB)
 
-
+* birthDate ^example.label = "出生日期"
+* birthDate ^example.valueDateTime = "1996-01-01"
 
 * name[usual].text 1..1 MS
 * identifier[idCardNumber].value ^short = "身分證字號"
 * identifier[medicalRecord] ^short = "病歷號/醫院上傳唯一碼，醫院該筆個案之唯一碼。"
 * identifier[medicalRecord].value ^short = "病歷號/醫院上傳唯一碼，醫院該筆個案之唯一碼。"
 * name[usual].text ^short = "姓名"
+* identifier[nhiCardNumber] ^short = "健保卡序號"
 * identifier[nhiCardNumber].value ^short = "健保卡序號"
 * birthDate ^short = "出生日期【因繼承TW Core IG設計而需必填】"
 * gender ^short = "性別【因繼承TW Core IG設計而需必填】"

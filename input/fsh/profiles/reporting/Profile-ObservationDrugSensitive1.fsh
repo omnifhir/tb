@@ -11,6 +11,8 @@ Description:    "此一線藥敏-Observation Drug Sensitive 1 Profile說明本IG
 * performer 1..1 MS
 * performer only Reference(OrganizationTB)
 * effective[x] only dateTime
+* effective[x] ^example.label = "一線藥敏報告日期"
+* effective[x] ^example.valueDateTime = "2026-03-10T10:45:00+08:00"
 * value[x] only CodeableConcept
 
 * method from CDCGenotypeMoleculeChecktool

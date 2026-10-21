@@ -13,6 +13,9 @@ Description:    "此MGIT培養結果報告-Observation MGIT Profile說明本IG�
 * valueCodeableConcept from CDCCultureResult
 
 
+* effectiveDateTime ^example.label = "MGIT培養結果報告日期"
+* effectiveDateTime ^example.valueDateTime = "2026-01-01"
+
 * code.coding 1..3
 * code.coding contains
     CDC 1..1 MS
@@ -27,6 +30,6 @@ Description:    "此MGIT培養結果報告-Observation MGIT Profile說明本IG�
 * status = #final
 * subject only Reference(PatientTB)
 
-* effectiveDateTime ^short = "MGIT培養結果報告日期"
+* effectiveDateTime ^short = "MGIT培養結果報告日期。YYYY-MM-DD"
 * valueCodeableConcept ^short = "MGIT培養結果"
 * performer ^short = "送驗單位(醫療院所)"

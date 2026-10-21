@@ -27,6 +27,8 @@ Description:    "此L-J培養結果報告-Observation LJ Profile說明本IG如�
 * status = #final
 * subject only Reference(PatientTB)
 
-* effectiveDateTime ^short = "L-J培養結果報告日期"
+* effectiveDateTime ^short = "L-J培養結果報告日期。YYYY-MM-DD"
+* effectiveDateTime ^example.label = "L-J培養結果報告日期"
+* effectiveDateTime ^example.valueDateTime = "2026-01-01"
 * valueCodeableConcept ^short = "L-J培養結果"
 * performer ^short = "送驗單位(醫療院所)"

@@ -127,4 +127,6 @@ Description:    "此分生一線藥物報告-Observation Genotype Profile說明�
 * component[INH].valueCodeableConcept from CDCGenotypeMoleculexInhFlqResult
 
 * effectiveDateTime ^short = "分生一線藥物報告日期"
+* effectiveDateTime ^example.label = "分生一線藥物報告日期"
+* effectiveDateTime ^example.valueDateTime = "2026-02-14"
 * performer ^short = "送驗單位(醫療院所)"

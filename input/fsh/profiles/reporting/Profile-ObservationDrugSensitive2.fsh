@@ -11,6 +11,8 @@ Description:    "此二線藥敏-Observation Drug Sensitive 2 Profile說明本IG
 * performer 1..1 MS
 * performer only Reference(OrganizationTB)
 * effective[x] only dateTime
+* effective[x] ^example.label = "二線藥敏報告日"
+* effective[x] ^example.valueDateTime = "2026-03-16T10:45:00+08:00"
 * value[x] only CodeableConcept
 
 * method from CDCMoleculexMoleculeChecktool

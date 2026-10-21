@@ -14,6 +14,8 @@ Description:    "此檢驗通報訊息-MessageHeader TB Reporting Profile說明�
 * focus only Reference(DiagnosticReportReporting)
 
 
+* meta.lastUpdated ^example.label = "最後修改日期時間"
+* meta.lastUpdated ^example.valueDateTime = "2026-01-01T08:36:48+08:00"
 
 * sender ^short = "實驗室收件單位"
 * meta.lastUpdated ^short = "最後修改日期時間，YYYY-MM-DDThh:mm:ss.sss+zz:zz。"

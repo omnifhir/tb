@@ -30,7 +30,9 @@ Description:    "此菌種鑑定報告-Observation Identify Profile說明本IG�
 
 
 
-* effectiveDateTime ^short = "菌種鑑定報告日期"
+* effectiveDateTime ^short = "菌種鑑定報告日期。YYYY-MM-DDThh:mm:ss+zz:zz"
+* effectiveDateTime ^example.label = "菌種鑑定報告日期"
+* effectiveDateTime ^example.valueDateTime = "2026-01-01T08:36:48+08:00"
 * method ^short = "菌種鑑定方法"
 * valueCodeableConcept ^short = "菌種鑑定結果"
 * valueCodeableConcept.text ^short = "菌種鑑定結果-其他說明，當菌種鑑定結果為「9.其他」時，此欄位才需填寫。"

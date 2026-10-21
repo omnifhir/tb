@@ -214,4 +214,6 @@ Description:    "此分生二線藥物報告-Observation Moleculex Profile說明
 * component[PZA].valueCodeableConcept from CDCGenotypeMoleculexResult
 
 * effectiveDateTime ^short = "分生二線藥物報告日期"
+* effectiveDateTime ^example.label = "分生二線藥物報告日期"
+* effectiveDateTime ^example.valueDateTime = "2026-02-18"
 * performer ^short = "送驗單位(醫療院所)"

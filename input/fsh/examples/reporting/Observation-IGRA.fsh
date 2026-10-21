@@ -8,26 +8,31 @@ Usage: #example
 * subject.reference = "Patient/example"
 * effectiveDateTime = "2026-01-13"
 * issued = "2026-01-13T17:00:00+08:00"
-* valueCodeableConcept = https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra-result#N
+* valueBoolean = true
 * performer.reference = "Organization/hosp"
 * code.coding[CDC] = https://tb.cdc.gov.tw/tb/CodeSystem/cdc-report-type#igra
 * note.text = "IGRA備註"
+* extension[IGRAFaxed].valueBoolean = false
 
-* component[QFT].code.coding[CDC].system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra"
-* component[QFT].code.coding[CDC].code = #QFT
-* component[QFT].valueQuantity.value = 0.06
+* component[IGRA].code.coding[CDC].system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra"
+* component[IGRA].code.coding[CDC].code = #IGRA
+* component[IGRA].valueCodeableConcept = https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra-result#N
 
-* component[TbAntigen].code.coding[CDC].system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra"
-* component[TbAntigen].code.coding[CDC].code = #TbAntigen
-* component[TbAntigen].valueQuantity.value = 0.1
+* component[QFT_NIL].code.coding[CDC].system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra"
+* component[QFT_NIL].code.coding[CDC].code = #QFT_NIL
+* component[QFT_NIL].valueQuantity.value = 0.06
 
-* component[Tb1Antigen].code.coding[CDC].system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra"
-* component[Tb1Antigen].code.coding[CDC].code = #Tb1Antigen
-* component[Tb1Antigen].valueQuantity.value = 0.31
+* component[TB_ANTIGEN].code.coding[CDC].system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra"
+* component[TB_ANTIGEN].code.coding[CDC].code = #TB_ANTIGEN
+* component[TB_ANTIGEN].valueQuantity.value = 0.1
 
-* component[Tb2Antigen].code.coding[CDC].system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra"
-* component[Tb2Antigen].code.coding[CDC].code = #Tb2Antigen
-* component[Tb2Antigen].valueQuantity.value = 0.32
+* component[TB1_ANTIGEN].code.coding[CDC].system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra"
+* component[TB1_ANTIGEN].code.coding[CDC].code = #TB1_ANTIGEN
+* component[TB1_ANTIGEN].valueQuantity.value = 0.31
+
+* component[TB2_ANTIGEN].code.coding[CDC].system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra"
+* component[TB2_ANTIGEN].code.coding[CDC].code = #TB2_ANTIGEN
+* component[TB2_ANTIGEN].valueQuantity.value = 0.32
 
 * component[MITOGEN].code.coding[CDC].system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-igra"
 * component[MITOGEN].code.coding[CDC].code = #MITOGEN
