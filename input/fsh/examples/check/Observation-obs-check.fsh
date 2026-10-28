@@ -6,7 +6,7 @@ Usage: #example
 * status = #final
 * identifier.value = "1"
 * category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
-* code.coding[LOINCObservationCode] = http://loinc.org#2093-3
+* code.text = "2093-3"
 * subject.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-07-02"
 * valueQuantity.code = #mg/dL

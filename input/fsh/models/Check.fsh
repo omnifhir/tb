@@ -44,9 +44,9 @@ Description: "TB生化檢查通報(Check)之資料模型"
 * r2 ^example.label = "檢驗項目名稱"
 * r2 ^example.valueString = "2093-3"
 
-* r3 0..1 code "檢驗方法" "檢驗方法"
+* r3 0..1 string "檢驗方法" "檢驗方法"
 * r3 ^example.label = "檢驗方法"
-* r3 ^example.valueCode = #Spectrophotometric
+* r3 ^example.valueString = "Spectrophotometric"
 
 * r4 0..1 string "檢驗報告結果值" "檢驗報告結果，如陽、25…等"
 * r4 ^example.label = "檢驗報告結果值"
@@ -78,5 +78,63 @@ Description: "TB生化檢查通報(Check)之資料模型"
 
 // -----------------------------Mapping-----------------------------
 
+Mapping: TBCheckDiagnosticReport
+Id: TBCheckDiagnosticReport
+Title: "Mapping to DiagnosticReport TB Check"
+Source: CheckModel
+Target: "https://tb.cdc.gov.tw/tb/StructureDefinition/DiagnosticReport-tb-check"
+* h2 -> "DiagnosticReport.performer"
+* h9 -> "DiagnosticReport.subject"
+* h11 -> "DiagnosticReport.encounter"
+* h16 -> "DiagnosticReport.effectiveDateTime"
+* h17 -> "DiagnosticReport.resultsInterpreter"
+* h20 -> "DiagnosticReport.result"
+* h90 -> "DiagnosticReport.subject"
+* r1 -> "DiagnosticReport.result"
 
+Mapping: TBCheckOrganization
+Id: TBCheckOrganization
+Title: "Mapping to Organization TB"
+Source: CheckModel
+Target: "https://tb.cdc.gov.tw/tb/StructureDefinition/Organization-tb"
+* h2 -> "Organization.identifier"
 
+Mapping: TBCheckPatient
+Id: TBCheckPatient
+Title: "Mapping to Patient TB"
+Source: CheckModel
+Target: "https://tb.cdc.gov.tw/tb/StructureDefinition/Patient-tb"
+* h9 -> "Patient.identifier.where(type.coding.code = 'NNxxx').value"
+* h90 -> "Patient.identifier.where(type.coding.code = 'MR').value"
+
+Mapping: TBCheckEncounter
+Id: TBCheckEncounter
+Title: "Mapping to Encounter TB Check"
+Source: CheckModel
+Target: "https://tb.cdc.gov.tw/tb/StructureDefinition/Encounter-tb-check"
+* h11 -> "Encounter.period.start"
+* h15 -> "Encounter.reasonCode"
+
+Mapping: TBCheckPractitioner
+Id: TBCheckPractitioner
+Title: "Mapping to Practitioner TB"
+Source: CheckModel
+Target: "https://tb.cdc.gov.tw/tb/StructureDefinition/Practitioner-tb"
+* h17 -> "Practitioner.identifier.where(type.coding.code = 'NNxxx').value"
+
+Mapping: TBCheckObservation
+Id: TBCheckObservation
+Title: "Mapping to Observation TB Check"
+Source: CheckModel
+Target: "https://tb.cdc.gov.tw/tb/StructureDefinition/Observation-tb-check"
+* h20 -> "Observation.effectiveDateTime"
+* r1 -> "Observation.identifier.value"
+* r2 -> "Observation.code"
+* r3 -> "Observation.method.text"
+* r4 -> "Observation.value[x]"
+* r5 -> "Observation.valueQuantity.code"
+* r61 -> "Observation.referenceRange.low"
+* r62 -> "Observation.referenceRange.high"
+* r10 -> "Observation.issued"
+* r11 -> "Observation.note"
+* r12 -> "Observation.interpretation"
