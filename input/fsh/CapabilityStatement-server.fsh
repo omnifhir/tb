@@ -176,6 +176,22 @@ Usage: #definition
 * rest.resource[=].interaction[=].code = #update
 * rest.resource[=].referencePolicy = #resolves
 
+* rest.resource[+].type = #Procedure
+* rest.resource[=].profile = "https://tb.cdc.gov.tw/tb/StructureDefinition/Procedure-tb-drug"
+* rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #SHALL
+* rest.resource[=].interaction[=].code = #create
+* rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #SHALL
+* rest.resource[=].interaction[=].code = #read
+* rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #SHALL
+* rest.resource[=].interaction[=].code = #vread
+* rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #SHALL
+* rest.resource[=].interaction[=].code = #update
+* rest.resource[=].referencePolicy = #resolves
+
 * rest.resource[+].type = #Practitioner
 * rest.resource[=].profile = "https://tb.cdc.gov.tw/tb/StructureDefinition/Practitioner-tb"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"

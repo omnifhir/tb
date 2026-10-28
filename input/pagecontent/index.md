@@ -32,7 +32,6 @@
 	<li><strong><a href="artifacts.html">規範文件</a></strong>
 	<ul>
 		<li><strong><a href="capabilitystatements.html">能力聲明</a></strong>：應用TWTB IG於建置業務目的使用的FHIR Server時，該FHIR Server必須及建議應該支援的資料存取功能。</li>
-		<li><strong><a href="searchparameters.html">查詢參數</a></strong>：查詢FHIR Server的Profiles時，針對各Profiles可使用的查詢參數。</li>
 		<li><strong><a href="models.html">邏輯模型</a>
 			</strong>：TWTB IG的所有邏輯模型(Logical Models)，邏輯模型會定義相應情境下使用的所有資料欄位。為了便於實作者快速理解，資料欄位會使用易於理解的命名，實作者再透過邏輯模型中的功能頁籤「Mappings」瞭解各資料欄位實際使用本IG的哪個Profiles的哪個資料項目(element)。
 		</li>

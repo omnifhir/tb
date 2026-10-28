@@ -35,7 +35,7 @@
 - [分生一線藥物報告-Observation Genotype](StructureDefinition-Observation-genotype.html)
 - [分生二線藥物報告-Observation Moleculex](StructureDefinition-Observation-moleculex.html)
 
-#### OperationOutcome
+
 
 ---
 
@@ -62,16 +62,15 @@
 #### Encounter
 - [就醫資訊-Encounter TB Drug](StructureDefinition-Encounter-tb-drug.html)
 
+#### Procedure
+- [特定治療項目-Procedure TB Drug](StructureDefinition-Procedure-tb-drug.html)
+
 #### Observation
 - [臺灣核心-體重（TW Core Observation Body Weight）](https://twcore.mohw.gov.tw/ig/twcore/0.3.2/StructureDefinition-Observation-body-weight-twcore.html)
 
 #### Specimen
 - [用藥通報檢體-Specimen TB Drug](StructureDefinition-Specimen-tb-drug.html)
 
-<!-- #### Procedure
-- [臺灣核心-處置或手術（TW Core Procedure）](https://twcore.mohw.gov.tw/ig/twcore/0.3.2/StructureDefinition-Procedure-twcore.html) -->
-
-#### OperationOutcome
 
 ---
 
@@ -101,4 +100,3 @@
 #### Observation
 - [生化檢查-Observation TB Check](StructureDefinition-Observation-tb-check.html)
 
-#### OperationOutcome

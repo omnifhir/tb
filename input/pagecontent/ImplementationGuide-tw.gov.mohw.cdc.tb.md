@@ -14,21 +14,21 @@
 - [XML](ImplementationGuide-tw.gov.mohw.cdc.tb.xml)
 - [JSON](ImplementationGuide-tw.gov.mohw.cdc.tb.json)
 
-### Cross Version Analysis
+<p><strong>Cross Version Analysis</strong></p>
 
 {% capture cross-version-analysis %}{% include cross-version-analysis.xhtml %}{% endcapture %}{{ cross-version-analysis | remove: '<p>' | remove: '</p>'}}
 
-### IG Dependencies
+<p><strong>IG Dependencies</strong></p>
 
 This IG Contains the following dependencies on other IGs.
 
 {% include dependency-table.xhtml %}
 
-### Global Profiles
+<p><strong>Global Profiles</strong></p>
 
 {% include globals-table.xhtml %}
 
-### Copyrights
+<p><strong>Copyrights</strong></p>
 
 {% capture ip-statement %}{% include ip-statements.xhtml %}{% endcapture %}
 

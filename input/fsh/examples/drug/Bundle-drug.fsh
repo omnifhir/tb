@@ -22,6 +22,12 @@ Usage: #example
 * entry[encounter].fullUrl = "https://tb.cdc.gov.tw/tb/Encounter/enc-drug"
 * entry[encounter].resource = enc-drug
 
+* entry[procedure][0].fullUrl = "https://tb.cdc.gov.tw/tb/Procedure/pro-drug-1"
+* entry[procedure][0].resource = pro-drug-1
+
+* entry[procedure][1].fullUrl = "https://tb.cdc.gov.tw/tb/Procedure/pro-drug-2"
+* entry[procedure][1].resource = pro-drug-2
+
 * entry[observationBodyWeight].fullUrl = "https://tb.cdc.gov.tw/tb/Observation/weight"
 * entry[observationBodyWeight].resource = weight
 

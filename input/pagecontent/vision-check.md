@@ -19,22 +19,6 @@ TB生化檢查通報透過Bundle打包以下資料(相關對應表可以參照TB
 
 <br>
 
-### TB生化檢查通報回覆之Bundle架構(Bundle Response)
-<!-- <div  style="padding-left: 10px;"> 
-透過查詢參數搜尋TB生化檢查通報狀態時，若操作語法有誤且執行失敗，將透過<a href="StructureDefinition-Operationoutcome-twpas.html">系統回應訊息-OperationOutcome TWPAS</a>回應錯誤訊息；  
-若操作語法正確且執行成功，將透過<a href="StructureDefinition-Bundle-response-twpas.html">事前審查回覆-Bundle Response TWPAS</a>打包以下資料：
-<ul>
-	<li>事前審查結果-ClaimResponse TWPAS</li>
-</ul>
-</div> -->
-
-
-#### Bundle架構圖
-<div  style="padding-left: 10px;"> 
-<!-- <img class="figure-img img-responsive img-rounded center-block" src="response.png" alt="Bundle_Response架構圖" style="display: block;margin-left: auto;margin-right: auto;width: 80%;"/> -->
-</div>
-
-<br>
 
 ### 圖例說明圖
 <div  style="padding-left: 10px;"> 

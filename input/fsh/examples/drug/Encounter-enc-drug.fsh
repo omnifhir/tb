@@ -8,3 +8,6 @@ Usage: #example
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#AMB
 * period.start = "2026-05-01"
 * period.end = "2026-05-02"
+* diagnosis[0].condition.reference = "Procedure/pro-drug-1"
+* diagnosis[1].condition.reference = "Procedure/pro-drug-2"
+* hospitalization.destination.reference = "Organization/hosp"

@@ -17,6 +17,7 @@ Description:    "此用藥通報-Bundle TB Drug Profile說明本IG如何進一�
 	patient 1..* MS and
 	practitioner 1..* MS and
 	encounter 1..* MS and
+	procedure 0..* MS and
 	observationBodyWeight 1..* MS and
 	specimen 1..* MS
 
@@ -31,6 +32,10 @@ Description:    "此用藥通報-Bundle TB Drug Profile說明本IG如何進一�
 * entry[encounter] ^short = "就醫資訊(Encounter)"
 * entry[encounter].resource 1..1 MS
 * entry[encounter].resource only EncounterTBDR
+
+* entry[procedure] ^short = "特定治療項目(Procedure)"
+* entry[procedure].resource 1..1 MS
+* entry[procedure].resource only ProcedureTBDR
 
 * entry[patient] ^short = "病人(Patient)"
 * entry[patient].resource 1..1 MS
