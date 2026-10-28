@@ -73,9 +73,9 @@
 .dropdown:hover .dropdown-menu {display: block;}
 
 :root {
-  --btn-hover-color: #0DCD7B;
-  --btn-gradient-start-color: #0DCD7B;
-  --btn-gradient-end-color: #0DCD7B;
+  --btn-hover-color: #84a98c;
+  --btn-gradient-start-color: #84a98c;
+  --btn-gradient-end-color: #84a98c;
   --ig-header-container-color: #ffffff;
 }
 

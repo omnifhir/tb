@@ -30,6 +30,8 @@ Usage: #definition
 * rest.interaction[=].code = #batch
 
 * rest.resource[+].type = #Bundle
+* rest.resource[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].supportedProfile[0] = "https://tb.cdc.gov.tw/tb/StructureDefinition/Bundle-tb-reporting"
 * rest.resource[=].supportedProfile[1] = "https://tb.cdc.gov.tw/tb/StructureDefinition/Bundle-tb-drug"
 * rest.resource[=].supportedProfile[2] = "https://tb.cdc.gov.tw/tb/StructureDefinition/Bundle-tb-check"
@@ -48,6 +50,8 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #MessageHeader
+* rest.resource[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].supportedProfile[0] = "https://tb.cdc.gov.tw/tb/StructureDefinition/MessageHeader-tb-reporting"
 * rest.resource[=].supportedProfile[1] = "https://tb.cdc.gov.tw/tb/StructureDefinition/MessageHeader-tb-drug"
 * rest.resource[=].supportedProfile[2] = "https://tb.cdc.gov.tw/tb/StructureDefinition/MessageHeader-tb-check"
@@ -66,6 +70,8 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #DiagnosticReport
+* rest.resource[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].supportedProfile[0] = "https://tb.cdc.gov.tw/tb/StructureDefinition/DiagnosticReport-tb-reporting"
 * rest.resource[=].supportedProfile[1] = "https://tb.cdc.gov.tw/tb/StructureDefinition/DiagnosticReport-tb-check"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
@@ -83,6 +89,8 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Organization
+* rest.resource[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].profile = "https://tb.cdc.gov.tw/tb/StructureDefinition/Organization-tb"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
@@ -99,6 +107,8 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Patient
+* rest.resource[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].profile = "https://tb.cdc.gov.tw/tb/StructureDefinition/Patient-tb"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
@@ -115,6 +125,8 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Observation
+* rest.resource[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].supportedProfile[0] = "https://tb.cdc.gov.tw/tb/StructureDefinition/Observation-smear"
 * rest.resource[=].supportedProfile[1] = "https://tb.cdc.gov.tw/tb/StructureDefinition/Observation-mgit"
 * rest.resource[=].supportedProfile[2] = "https://tb.cdc.gov.tw/tb/StructureDefinition/Observation-lj"
@@ -144,6 +156,8 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Specimen
+* rest.resource[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].supportedProfile[0] = "https://tb.cdc.gov.tw/tb/StructureDefinition/Specimen-tb-reporting"
 * rest.resource[=].supportedProfile[1] = "https://tb.cdc.gov.tw/tb/StructureDefinition/Specimen-tb-drug"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
@@ -161,6 +175,8 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Encounter
+* rest.resource[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].supportedProfile[0] = "https://tb.cdc.gov.tw/tb/StructureDefinition/Encounter-tb-drug"
 * rest.resource[=].supportedProfile[1] = "https://tb.cdc.gov.tw/tb/StructureDefinition/Encounter-tb-check"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
@@ -178,6 +194,8 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Procedure
+* rest.resource[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].extension.valueCode = #SHOULD
 * rest.resource[=].profile = "https://tb.cdc.gov.tw/tb/StructureDefinition/Procedure-tb-drug"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
@@ -194,6 +212,8 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Practitioner
+* rest.resource[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].profile = "https://tb.cdc.gov.tw/tb/StructureDefinition/Practitioner-tb"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL

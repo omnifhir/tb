@@ -10,7 +10,7 @@
     "category" : "Public Health",
     "title"  : "臺灣結核病實作指引(TWTB IG)",
     "introduction"  : "臺灣結核病實作指引(Taiwan Tuberculosis Implementation Guide，TWTB IG)",
-    "ci-build"  : "https://build.fhir.org/ig/twcdc/tb"
+    "ci-build"  : "https://build.fhir.org/ig/omnifhir/tb"
   }
 
 

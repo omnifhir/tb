@@ -14,7 +14,7 @@ TB生化檢查通報透過Bundle打包以下資料(相關對應表可以參照TB
 
 #### Bundle架構圖
 <div  style="padding-left: 10px;"> 
-<img class="figure-img img-responsive img-rounded center-block" src="check.png" alt="Bundle生化檢查通報架構圖" style="display: block;margin-left: auto;margin-right: auto;width: 100%;"/>
+<img class="figure-img img-responsive img-rounded center-block" src="check.png" alt="Bundle生化檢查通報架構圖" style="display: block;margin-left: auto;margin-right: auto;width: 80%;"/>
 </div>
 
 <br>
