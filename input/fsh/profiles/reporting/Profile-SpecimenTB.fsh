@@ -32,3 +32,4 @@ Description:    "此檢驗通報檢體-Specimen TB Reporting Profile說明本IG�
 * receivedTime ^short = "實驗室檢體收件日。YYYY-MM-DDThh:mm:ss+zz:zz"
 * receivedTime ^example.label = "實驗室檢體收件日"
 * receivedTime ^example.valueDateTime = "2026-01-01T08:36:48+08:00"
+* receivedTime obeys yyyyMMddHHmmss

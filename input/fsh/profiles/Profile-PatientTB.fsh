@@ -19,6 +19,7 @@ Description:    "此病人資訊-Patient TB Profile說明本IG如何進一步定
 * birthDate ^example.label = "出生日期"
 * birthDate ^example.valueDateTime = "1996-01-01"
 
+* name 0..1
 * name[usual].text 1..1 MS
 * identifier[idCardNumber].value ^short = "身分證字號"
 * identifier[medicalRecord] ^short = "病歷號/醫院上傳唯一碼，醫院該筆個案之唯一碼。"

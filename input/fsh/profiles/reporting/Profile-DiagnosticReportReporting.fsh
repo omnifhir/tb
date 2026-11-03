@@ -10,9 +10,10 @@ Description:    "此實驗室報告-DiagnosticReport TB Reporting Profile說明�
 * specimen 1..1 MS
 * specimen only Reference(SpecimenTB)
 * code = http://loinc.org#11502-2
-* subject 1..
+* subject 1.. MS
 * subject only Reference(PatientTB)
 
+* result MS
 * result only Reference(ObservationSmear or ObservationMGIT or ObservationLJ or ObservationIdentify or ObservationDrugSensitive1 or ObservationDrugSensitive2 or ObservationSputumPCR or ObservationIGRA or ObservationXpertMTBC or ObservationXpertRMP or ObservationGenotype or ObservationMoleculex)
 
 * subject ^short = "病人資訊"

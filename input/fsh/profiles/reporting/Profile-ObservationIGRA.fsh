@@ -11,9 +11,13 @@ Description:    "此IGRA報告-Observation IGRA Profile說明本IG如何進一�
 * performer 1..1 MS
 * performer only Reference(OrganizationTB)
 * effective[x] only dateTime
+* effectiveDateTime ^example.label = "IGRA報告日期"
+* effectiveDateTime ^example.valueDateTime = "2026-01-13"
 * value[x] only boolean
 * note 0..1 MS
 * issued MS
+* issued ^example.label = "IGRA登打日期"
+* issued ^example.valueInstant = "2026-01-13T17:00:00+08:00"
 
 * code.coding 1..3
 * code.coding ^slicing.discriminator.type = #pattern

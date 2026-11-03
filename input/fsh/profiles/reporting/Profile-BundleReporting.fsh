@@ -4,6 +4,9 @@ Id:             Bundle-tb-reporting
 Title:          "檢驗通報-Bundle TB Reporting"
 Description:    "此檢驗通報-Bundle TB Reporting Profile說明本IG如何進一步定義臺灣核心-資料交換基本單位（TW Core Bundle） Profile以呈現TB檢驗通報"
 * ^version = "0.1.0"
+* meta 1..1
+* meta.profile 1..1
+* meta.profile = "https://tb.cdc.gov.tw/tb/StructureDefinition/Bundle-tb-reporting"
 * type = #message
 
 * entry 3..* MS

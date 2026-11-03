@@ -30,8 +30,8 @@ Description:    "此塗片報告-Observation Smear Profile說明本IG如何進�
 
 * effectiveDateTime ^example.label = "塗片報告日期"
 * effectiveDateTime ^example.valueDateTime = "2026-01-01T08:36:48+08:00"
-
 * effectiveDateTime ^short = "塗片報告日期。YYYY-MM-DDThh:mm:ss+zz:zz"
+* effectiveDateTime obeys yyyyMMddHHmmss
 * method ^short = "塗片方法"
 * valueCodeableConcept ^short = "塗片結果"
 * performer ^short = "送驗單位(醫療院所)"

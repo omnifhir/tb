@@ -9,7 +9,7 @@ Description:    "此用藥通報訊息-MessageHeader TB Drug Profile說明本IG�
 * eventCoding.system = "https://tb.cdc.gov.tw/tb/CodeSystem/cdc-message-event"
 * sender 1..1 MS
 * sender only Reference(TWCoreOrganization)
-* focus 1..
+* focus 1..2
 * focus only Reference(MedicationRequestTBDR or SpecimenTBDR)
 
 

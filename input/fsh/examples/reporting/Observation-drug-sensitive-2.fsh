@@ -84,3 +84,151 @@ Usage: #example
 * component[other].code.coding[CDC].code = #other
 * component[other].code.text = "其他二線藥敏"
 * component[other].valueCodeableConcept = https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result#S
+
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+	<div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\">
+        <p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Observation-drug-sensitive-2.html\">二線藥敏-Observation Drug Sensitive 2</a></p>
+    </div>
+    <p><b>status</b>：Final</p>
+    <p><b>category</b>：<span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category
+            laboratory}\">Laboratory</span></p>
+    <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-report-type sensitive2}\">二線藥敏報告</span>
+    </p>
+    <p><b>subject</b>：<a href=\"Patient-example.html\">Patient/example</a>
+    </p>
+    <p><b>二線藥敏報告日期(effective)</b>：2026-03-16 10:45:00+0800</p>
+    <p><b>送驗單位(performer)</b>：<a href=\"Organization-hosp.html\">Organization/hosp</a></p>
+    <p><b>分子檢測工具(method)</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-moleculex-molecule-checktool
+            1}\">Genotype MTBDRsl</span></p>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S01}\">二線藥敏-高濃度Kanamycin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S02}\">二線藥敏-低濃度Kanamycin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S03}\">二線藥敏-Ofloxacin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S04}\">二線藥敏-Ethionamide</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S05}\">二線藥敏-p-aminosalicylicacid</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S06}\">二線藥敏-Rifabutin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S07}\">二線藥敏-Capreomycin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S08}\">二線藥敏-Ciprofloxacin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S09}\">二線藥敏-Moxifloxacin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S10}\">二線藥敏-Gatifloxacin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S11}\">二線藥敏-Levofloxacin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S12}\">二線藥敏-Amikacin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S13}\">二線藥敏-Prothionamide</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S14}\">二線藥敏-Cycloserine</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S15}\">二線藥敏-Terizidone</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S16}\">二線藥敏-Thioacetazone</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                S17}\">二線藥敏-Enviomycin</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <p><b>component</b></p>
+        <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive
+                other}\">其他二線藥敏</span></p>
+        <p><b>value</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-drug-sensitive-result
+                S}\">敏感</span></p>
+    </blockquote>
+    <blockquote>
+        <div>
+            <p><b>二線藥敏備註(note)</b>：二線藥敏備註</p>
+        </div>
+    </blockquote>"

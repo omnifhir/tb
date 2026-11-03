@@ -4,6 +4,9 @@ Id:             Bundle-tb-drug
 Title:          "用藥通報-Bundle TB Drug"
 Description:    "此用藥通報-Bundle TB Drug Profile說明本IG如何進一步定義臺灣核心-資料交換基本單位（TW Core Bundle） Profile以呈現TB用藥通報"
 * ^version = "0.1.0"
+* meta 1..1
+* meta.profile 1..1
+* meta.profile = "https://tb.cdc.gov.tw/tb/StructureDefinition/Bundle-tb-drug"
 * type = #message
 
 * entry 8..* MS
@@ -11,15 +14,15 @@ Description:    "此用藥通報-Bundle TB Drug Profile說明本IG如何進一�
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #closed
 * entry contains
-	messageHeader 1..* MS and
-	medicationRequest 1..* MS and
-	organization 1..* MS and
-	patient 1..* MS and
-	practitioner 1..* MS and
-	encounter 1..* MS and
-	procedure 0..* MS and
-	observationBodyWeight 1..* MS and
-	specimen 1..* MS
+	messageHeader 1..1 MS and
+	medicationRequest 1..1 MS and
+	organization 1..2 MS and
+	patient 1..1 MS and
+	practitioner 1..1 MS and
+	encounter 1..1 MS and
+	procedure 0..4 MS and
+	observationBodyWeight 1..1 MS and
+	specimen 0..1 MS
 
 * entry[observationBodyWeight] ^short = "最近體重(Observation)"
 * entry[observationBodyWeight].resource 1..1 MS
