@@ -10,3 +10,19 @@ Usage: #example
 * effectiveDateTime = "2026-02-09"
 * performer.reference = "Organization/hosp"
 * valueCodeableConcept = https://tb.cdc.gov.tw/tb/CodeSystem/cdc-culture-result#-
+
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+	<div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\">
+        <p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Observation-lj.html\">L-J培養結果報告-Observation LJ</a></p>
+    </div>
+        <p><b>status</b>：Final</p>
+    <p><b>category</b>：<span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category
+            laboratory}\">Laboratory</span></p>
+    <p><b>code</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-report-type lj}\">L-J培養結果報告</span></p>
+    <p><b>subject</b>：<a href=\"Patient-example.html\">Patient/example</a>
+    </p>
+    <p><b>L-J培養結果報告日期(effective)</b>：2026-02-09</p>
+    <p><b>送驗單位(performer)</b>：<a href=\"Organization-hosp.html\">Organization/hosp</a></p>
+    <p><b>L-J培養結果(value)</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-culture-result -}\">陰性</span></p>
+</div>"

@@ -27,4 +27,5 @@ Usage: #example
     <p><b>菌種鑑定報告日期(effective)</b>：2026-01-01 08:36:48+0800</p>
     <p><b>送驗單位(performer)</b>：<a href=\"Organization-hosp.html\">Organization/hosp</a></p>
     <p><b>菌種鑑定結果(value)</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-identify-result M}\">MTBC</span></p>
-    <p><b>菌種鑑定方法(method)</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-identify-method 3}\">ICT鑑定</span></p>"
+    <p><b>菌種鑑定方法(method)</b>：<span title=\"Codes:{https://tb.cdc.gov.tw/tb/CodeSystem/cdc-identify-method 3}\">ICT鑑定</span></p>
+</div>"
